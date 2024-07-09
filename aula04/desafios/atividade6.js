@@ -4,18 +4,16 @@ import readline from 'node:readline';
 
 const rl = readline.Interface({
     input: process.stdin,
-})
+});
 
 console.log(
     colors.bgWhite(' Atividade 9 '),
     '↪ Escreva um programa que verifique se um número fornecido pelo usuário é primo.\n'
 );
-console.log(
-    colors.blue('Digite um número:')
-);
+console.log(colors.blue('Digite um número:'));
 
 rl.on('line', (input) => {
-    if(!parseInt(input)) {
+    if (!parseInt(input)) {
         console.log(
             '\n    ' + colors.bgRed('  ERRO  '),
             colors.red(`O número precisa ser inteiro!\n`)
@@ -31,8 +29,7 @@ rl.on('line', (input) => {
             colors.red(`O número ${input} não é um número primo!`)
         );
     }
-
-})
+});
 
 function numeroPrimo(numero) {
     if (numero <= 1) {
@@ -41,9 +38,9 @@ function numeroPrimo(numero) {
 
     for (var i = 2; i < numero; i++) {
         if (numero % i === 0) {
-            return false; 
-        } 
+            return false;
+        }
     }
 
-    return true; 
+    return true;
 }
