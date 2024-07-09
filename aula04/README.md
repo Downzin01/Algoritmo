@@ -1,11 +1,11 @@
 <img src="../assets/img/if-else.jpg" style="width: 100%; height: auto;" />
 <div align="center">
-  <h1>✨ Condições 条件 👾</h1>
-  <p> Um projeto para reunir links das minhas redes sociais e criar uma página com uma breve biografia, destinada aos visitantes. Além disso, a página apresentará alguns dos meus projetos favoritos.  <strong>(¬‿¬)</strong></p>
-  <div>
-    <img src="https://img.shields.io/static/v1?label=aula&message=4.0&color=5353ec&style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
-  </div>
+    <h1>✨ Condições 条件 👾</h1>
+    <p> Esse guia é nada mais de anotações sobre as aulas de Javascript da turma TI 24 feita por Matheus Dantas (O tal Dante) para colegas e aprendizados. Ao longo das aulas, terá uma source aberta no GitHub para acesso de códigos, exemplos e etc.  <strong>(¬‿¬)</strong></p>
+    <div>
+        <img src="https://img.shields.io/static/v1?label=aula&message=4.0&color=5353ec&style=for-the-badge"/>
+        <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
+    </div>
 </div>
 
 <section align="center">
@@ -15,8 +15,8 @@
 </section>
 
 <div align="center">
-  <h2>💻 if-else</h2>
-  <p>A estrutura if-else permite executar um bloco de código se uma condição especificada for verdadeira. Você também pode adicionar um bloco else para executar um código alternativo se a condição for falsa.</p>
+    <h2>💻 if-else</h2>
+    <p>A estrutura if-else permite executar um bloco de código se uma condição especificada for verdadeira. Você também pode adicionar um bloco else para executar um código alternativo se a condição for falsa.</p>
 </div>
  
 ```js
@@ -40,8 +40,8 @@
 ```
 
 <div align="center">
-  <h2>💻 if-else if-else</h2>
-  <p>Você pode usar else if para verificar múltiplas condições.</p>
+    <h2>💻 if-else if-else</h2>
+    <p>Você pode usar else if para verificar múltiplas condições.</p>
 </div>
 
 ```js
@@ -53,6 +53,7 @@
     // Bloco de código a ser executado se nenhuma das condições anteriores for verdadeira
     }
 ```
+
 ## Exemplo:   
 ```js
     let nota = 85;
@@ -74,9 +75,10 @@
     }
 ```
 <div align="center">
-  <h2>💻 switch</h2>
-  <p>A estrutura switch é usada para executar um bloco de código dentre várias opções com base no valor de uma expressão. É uma alternativa mais organizada ao if-else quando você precisa verificar muitas condições.</p>
+    <h2>💻 switch</h2>
+    <p>A estrutura switch é usada para executar um bloco de código dentre várias opções com base no valor de uma expressão. É uma alternativa mais organizada ao if-else quando você precisa verificar muitas condições.</p>
 </div>
+
 
 ```js
     switch (expressao) {
@@ -124,10 +126,11 @@
 
 console.log(dia);
 ```
+
 <div align="center">
-  <h2>💻 Considerações Finais 最終的な考慮事項</h2>
-  <p>Use if-else quando você tiver poucas condições para verificar ou quando as condições não forem baseadas em um único valor.
-Use switch quando precisar verificar muitas condições baseadas no valor de uma única expressão, especialmente se houver muitos casos possíveis.</p>
+    <h2>💻 Considerações Finais 最終的な考慮事項</h2>
+    <p>Use if-else quando você tiver poucas condições para verificar ou quando as condições não forem baseadas em um único valor.
+    Use switch quando precisar verificar muitas condições baseadas no valor de uma única expressão, especialmente se houver muitos casos possíveis.</p>
 </div>
 
 
@@ -160,20 +163,20 @@ Você pode agrupar múltiplos casos que compartilham o mesmo código.
 ```
 ---
 <section align="center">
-  <p>😀 Se você tiver sugestões, feedback ou quiser colaborar em algum projeto, ficarei feliz em ouvir de você! 😁</p>
-  <h3>💻 Contato 接触</h3>
-  <p>
-    <a href="mailto:dantasmatheus001@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <a href="https://www.instagram.com/downzin_" rel="nofollow">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-    </a>
-    <a href="https://x.com/DownloaderChan1" rel="nofollow">
-      <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X" />
-    </a>
-    <a href="https://discord.com/users/576935681167982595">
-      <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-    </a>
-  </p>
+    <p>😀 Se você tiver sugestões, feedback ou quiser colaborar em algum projeto, ficarei feliz em ouvir de você! 😁</p>
+    <h3>💻 Contato 接触</h3>
+    <p>
+        <a href="mailto:dantasmatheus001@gmail.com">
+            <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+        </a>
+        <a href="https://www.instagram.com/downzin_" rel="nofollow">
+            <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+        </a>
+        <a href="https://x.com/DownloaderChan1" rel="nofollow">
+            <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X" />
+        </a>
+        <a href="https://discord.com/users/576935681167982595">
+            <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+        </a>
+    </p>
 </section>
