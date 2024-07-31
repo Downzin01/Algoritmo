@@ -99,7 +99,7 @@ console.log("Emprego: " + emprego);
             <img src="https://img.shields.io/static/v1?label=Consoles&message=Clique&color=f0db4f&style=for-the-badge"/>
         </a>
         <a href="#">
-            <img src="https://img.shields.io/static/v1?label=Concatenação&message=Clique&color=f0db4f&style=for-the-badge"/>
+            <img src="https://img.shields.io/static/v1?label=Concatenacao&message=Clique&color=f0db4f&style=for-the-badge"/>
         </a>
         <a href="#">
             <img src="https://img.shields.io/static/v1?label=var, let e const&message=Clique&color=f0db4f&style=for-the-badge"/>
