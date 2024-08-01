@@ -3,6 +3,9 @@
     <h1>✨ Condições 条件 👾</h1>
     <p> Esse guia é nada mais de anotações sobre as aulas de Javascript da turma TI 24 feita por Matheus Dantas (O tal Dante) para colegas e aprendizados. Ao longo das aulas, terá uma source aberta no GitHub para acesso de códigos, exemplos e etc.  <strong>(¬‿¬)</strong></p>
     <div>
+        <a href="../README.md">
+            <img src="https://img.shields.io/static/v1?label=VOLTAR&message=Clique&color=f0db4f&style=for-the-badge"/>
+        </a>
         <img src="https://img.shields.io/static/v1?label=aula&message=4.0&color=5353ec&style=for-the-badge"/>
         <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
     </div>
@@ -162,6 +165,26 @@ Você pode agrupar múltiplos casos que compartilham o mesmo código.
     }
 ```
 ---
+
+<div align="center">
+    <h2>💻 Veja mais</h2>
+    <div style="display: flex; justify-content: center; align-items: flex-end;">
+    <div style="text-align: center; margin-right: 10px;">
+        <a href="../README.md">
+            <img src="https://img.shields.io/static/v1?label=VOLTAR&message=Clique&color=f0db4f&style=for-the-badge"/>
+        </a>
+        <a href="../aula01/README.md">
+            <img src="https://img.shields.io/static/v1?label=Variaveis e Consoles&message=Clique&color=f0db4f&style=for-the-badge"/>
+        </a>
+        <a href="../aula02/README.md">
+            <img src="https://img.shields.io/static/v1?label=Operadores e Expressoes&&message=Clique&color=f0db4f&style=for-the-badge"/>
+        </a>
+        <a href="../aula05/README.md">
+            <img src="https://img.shields.io/static/v1?label=Loop While&message=Clique&color=f0db4f&style=for-the-badge"/>
+        </a>
+    </div>
+</div>
+
 <section align="center">
     <p>😀 Se você tiver sugestões, feedback ou quiser colaborar em algum projeto, ficarei feliz em ouvir de você! 😁</p>
     <h3>💻 Contato 接触</h3>
