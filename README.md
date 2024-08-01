@@ -95,7 +95,7 @@
     />
     <a href="./aula01/variaveis/zVarLetConst.md">
         <img 
-            src="https://img.shields.io/static/v1?label=Var, Let e Const&message=AULA 1.4&color=f0db4f&style=for-the-badge" 
+            src="https://img.shields.io/static/v1?label=Var Let Const&message=AULA 1.4&color=f0db4f&style=for-the-badge" 
             style="margin-bottom: 2px;"
         />
     </a>
