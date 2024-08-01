@@ -2,104 +2,77 @@
 // Verifique se uma matriz fornecida pelo usuário é um quadrado mágico utilizando laços de repetição.
 // (Um quadrado mágico é uma matriz onde a soma de cada linha, coluna e diagonal é a mesma).
 
-import readline from 'readline';
+const matriz = [
+    [2, 7, 6],
+    [9, 5, 1],
+    [4, 3, 8]
+];
 
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+console.log(quadradoMagico(matriz));
 
-function isQuadradoMagico(matriz) {
-    const n = matriz.length;
-    let somaMagica = 0;
+function quadradoMagico(matriz) {
+    const tamanhoMatriz = matriz.length;
+    console.log(`Tamanho da matriz: ${tamanhoMatriz}`);
 
-    // Calcular a soma mágica usando a primeira linha
-    for (let j = 0; j < n; j++) {
-        somaMagica += matriz[0][j];
-    }
+    // Soma da primeira linha para comparação
+    const somaPrimeiraLinha = matriz[0].reduce((a, b) => a + b, 0);
+    console.log(`Soma da primeira linha: ${somaPrimeiraLinha}`);
 
-    // Verificar as somas das linhas
-    for (let i = 1; i < n; i++) {
-        let somaLinha = 0;
-        for (let j = 0; j < n; j++) {
-            somaLinha += matriz[i][j];
-        }
-        if (somaLinha !== somaMagica) {
+    // Verificar a soma de cada linha
+    let i = 1;
+    while (i < tamanhoMatriz) {
+        const somaLinha = matriz[i].reduce((a, b) => a + b, 0);
+        console.log(`Soma da linha ${i + 1}: ${somaLinha}`);
+        if (somaLinha !== somaPrimeiraLinha) {
+            console.log(`A soma da linha ${i + 1} (${somaLinha}) é diferente da soma esperada (${somaPrimeiraLinha})`);
             return false;
         }
+        i++;
     }
 
-    // Verificar as somas das colunas
-    for (let j = 0; j < n; j++) {
-        let somaColuna = 0;
-        for (let i = 0; i < n; i++) {
-            somaColuna += matriz[i][j];
+    // Verificar a soma de cada coluna
+    let j = 0;
+    while (j < tamanhoMatriz) {
+        let somaColunas = 0;
+        let k = 0;
+        while (k < tamanhoMatriz) {
+            somaColunas += matriz[k][j];
+            k++;
         }
-        if (somaColuna !== somaMagica) {
+        console.log(`Soma da coluna ${j + 1}: ${somaColunas}`);
+        if (somaColunas !== somaPrimeiraLinha) {
+            console.log(`A soma da coluna ${j + 1} (${somaColunas}) é diferente da soma esperada (${somaPrimeiraLinha})`);
             return false;
         }
+        j++;
     }
 
     // Verificar a soma da diagonal principal
-    let somaDiagonalPrincipal = 0;
-    for (let i = 0; i < n; i++) {
-        somaDiagonalPrincipal += matriz[i][i];
+    let somaPrimeiraDiagonal = 0;
+    i = 0;
+    while (i < tamanhoMatriz) {
+        somaPrimeiraDiagonal += matriz[i][i];
+        i++;
     }
-    if (somaDiagonalPrincipal !== somaMagica) {
+    console.log(`Soma da diagonal principal: ${somaPrimeiraDiagonal}`);
+    if (somaPrimeiraDiagonal !== somaPrimeiraLinha) {
+        console.log(`A soma da diagonal principal (${somaPrimeiraDiagonal}) é diferente da soma esperada (${somaPrimeiraLinha})`);
         return false;
     }
 
     // Verificar a soma da diagonal secundária
-    let somaDiagonalSecundaria = 0;
-    for (let i = 0; i < n; i++) {
-        somaDiagonalSecundaria += matriz[i][n - i - 1];
+    let somaSegundaDiagonal = 0;
+    i = 0;
+    while (i < tamanhoMatriz) {
+        somaSegundaDiagonal += matriz[i][tamanhoMatriz - 1 - i];
+        i++;
     }
-    if (somaDiagonalSecundaria !== somaMagica) {
+    console.log(`Soma da diagonal secundária: ${somaSegundaDiagonal}`);
+    if (somaSegundaDiagonal !== somaPrimeiraLinha) {
+        console.log(`A soma da diagonal secundária (${somaSegundaDiagonal}) é diferente da soma esperada (${somaPrimeiraLinha})`);
         return false;
     }
 
+    console.log("A matriz é um quadrado mágico!");
     return true;
 }
-
-function receberMatriz(callback) {
-    rl.question("Digite o tamanho da matriz (n): ", (input) => {
-        const n = parseInt(input);
-        if (isNaN(n) || n <= 0) {
-            console.log("Por favor, insira um número válido e positivo.");
-            rl.close();
-            return;
-        }
-
-        const matriz = [];
-        let linhasLidas = 0;
-
-        function lerLinha() {
-            if (linhasLidas < n) {
-                rl.question(`Digite a linha ${linhasLidas + 1} (separada por espaços): `, (linha) => {
-                    const elementos = linha.split(' ').map(Number);
-                    if (elementos.length !== n || elementos.some(isNaN)) {
-                        console.log("Por favor, insira a linha corretamente com números válidos.");
-                        lerLinha();
-                    } else {
-                        matriz.push(elementos);
-                        linhasLidas++;
-                        lerLinha();
-                    }
-                });
-            } else {
-                callback(matriz);
-                rl.close();
-            }
-        }
-
-        lerLinha();
-    });
-}
-
-receberMatriz((matriz) => {
-    if (isQuadradoMagico(matriz)) {
-        console.log("A matriz fornecida é um quadrado mágico.");
-    } else {
-        console.log("A matriz fornecida não é um quadrado mágico.");
-    }
-});

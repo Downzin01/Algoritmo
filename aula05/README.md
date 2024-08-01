@@ -84,7 +84,29 @@
     <p>O loop while é uma ferramenta poderosa e flexível para a repetição de blocos de código em JavaScript. Sua simplicidade e eficiência o tornam ideal para situações em que a quantidade de iterações não é conhecida antecipadamente. No entanto, é crucial garantir que a condição do loop possa se tornar falsa em algum momento para evitar loops infinitos. Com o uso adequado de break e continue, você pode controlar ainda mais a execução do loop para atender às suas necessidades específicas.</p>
 </div>
 </section>
+
 ---
+
+
+<div align="center">
+    <h2>💻 Veja mais</h2>
+    <div style="display: flex; justify-content: center; align-items: flex-end;">
+    <div style="text-align: center; margin-right: 10px;">
+        <a href="../README.md">
+            <img src="https://img.shields.io/static/v1?label=VOLTAR&message=Clique&color=f0db4f&style=for-the-badge"/>
+        </a>
+        <a href="../aula01/README.md">
+            <img src="https://img.shields.io/static/v1?label=Variaveis e Consoles&message=Clique&color=f0db4f&style=for-the-badge"/>
+        </a>
+        <a href="../aula02/README.md">
+            <img src="https://img.shields.io/static/v1?label=Operadores e Expressoes&&message=Clique&color=f0db4f&style=for-the-badge"/>
+        </a>
+        <a href="../aula04/README.md">
+            <img src="https://img.shields.io/static/v1?label=If...Else&message=Clique&color=f0db4f&style=for-the-badge"/>
+        </a>
+    </div>
+</div>
+
 <section align="center">
     <p>😀 Se você tiver sugestões, feedback ou quiser colaborar em algum projeto, ficarei feliz em ouvir de você! 😁</p>
     <h3>💻 Contato 接触</h3>
