@@ -1,4 +1,6 @@
+// --------------------------------------------------
 // Calculo das operações básicas
+// --------------------------------------------------
 var valor1 = 10;
 var valor2 = 5;
 
@@ -14,9 +16,13 @@ console.log(`${valor1} / ${valor2} = ${resultadoDivisao}`);
 console.log(`${valor1} * ${valor2} = ${resultadoDivisao}`);
 console.log('============================================');
 
-console.log('Convertor de Fahrenheit para Celsius e Celsius para Fahrenheit:\n');
+
+// --------------------------------------------------
+// Convertor de Fahrenheit para Celsius e Celsius para Fahrenheit
+// --------------------------------------------------
 
 // Fórmula para Celsius -> C = F - 32 / 1,8
+console.log('Convertor de Fahrenheit para Celsius e Celsius para Fahrenheit:\n');
 var valorFahrenheit = 1;
 var calculoCelsius = (valorFahrenheit - 32) / 1.8;
 
@@ -29,6 +35,10 @@ var calculoFahrenheit = valorCelsius * (9 / 5) + 32;
 console.log(`A conversão de ${valorCelsius}Cº é ${calculoFahrenheit}`);
 console.log('============================================');
 
+
+// --------------------------------------------------
+// Convertor de Metros para Centimetros
+// --------------------------------------------------
 console.log('Convertor de Metros para Centimetros\n');
 var metros = 1;
 var calculoMetrosParaCentimetros = metros * 100;
@@ -44,6 +54,3 @@ var calculoDesconto = (10 / 100) * valorProduto;
 var calculoDescontoProduto = valorProduto - calculoDesconto;
 
 console.log(`O valor de R$${valorProduto} com ${valorDesconto}% é ${calculoDescontoProduto}`);
-
-
-
