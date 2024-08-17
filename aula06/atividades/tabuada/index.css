@@ -1,0 +1,140 @@
+:root {
+    --cor-texto-claro: #f0f0f0;
+    --cor-texto-escuro: #444;
+
+    --cor-fundo-claro: #f0f0f0;
+    --cor-fundo-escuro: #444;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo-claro);
+    color: var(--cor-texto-escuro);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90dvh;
+}
+
+.card_tabuada {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    margin-top: 70px;
+}
+
+.card_tabuada-titulo {
+    font-size: 1.5rem;
+}
+
+.card_tabuada-enviar {
+    margin-top: 15px;
+}
+
+.card_tabuada-input {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px; 
+    font-size: 16px;
+    width: 50%; 
+    max-width: 300px; 
+    box-sizing: border-box; 
+    transition: border-color 0.3s; 
+}
+
+.card_tabuada-input:focus {
+    border-color: #f0db4f;
+    outline: none; 
+}
+
+.card_tabuada-botao {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0db4f;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: padding 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card_tabuada-botao:hover {
+    background-color: #e5c72e; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.card_tabuada-botao:active {
+    padding: 10px 10px; 
+    background-color: #d4b82b; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.card_tabuada-tituloResultado {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.card_tabuada-resultado {
+    margin-top: 10px;
+    font-size: 18px;
+    white-space: pre; 
+}
+
+.tabuada-tabela {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+.tabuada-tabela td {
+    border: 1px solid #f0f0f0;
+    padding: 5px;
+    text-align: center;
+}
+
+.tabuada-tabela tr:hover {
+    background-color: #f0db4f;
+}
+
+.alterar-tema {
+    background: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    position: fixed; 
+    top: 20px; 
+    right: 50px; 
+    z-index: 1000; 
+}
+
+.alterar-tema img {
+    position: absolute; 
+    width: 24px; 
+    height: 24px; 
+    transition: opacity 0.3s ease; 
+}
+
+
+.dark-theme {
+    background-color: #444;
+    color: var(--cor-texto-claro);
+}
+
+.dark-theme #menu {
+    background-color: #444;
+}
+
