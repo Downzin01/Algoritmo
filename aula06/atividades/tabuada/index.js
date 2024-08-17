@@ -69,8 +69,8 @@ botaoAlterarTema.addEventListener('click', () => {
     resultadoDiv.classList.toggle('dark-theme');
 
     if (body.classList.contains('dark-theme')) {
-        temaIcon.src = '../../../assets/img/sol.png'; // Imagem para o tema escuro
+        temaIcon.src = '../../../assets/img/aula06/sol.png'; 
     } else {
-        temaIcon.src = '../../../assets/img/lua.png'; // Imagem para o tema claro
+        temaIcon.src = '../../../assets/img/aula06/lua.png'; 
     }
 });
