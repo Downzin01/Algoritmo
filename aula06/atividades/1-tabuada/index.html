@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="../assets/img/javascriptIcon.png"/>
+    <title>Tabuada - Atividade 1</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <button class="voltar" id="voltar"><a href="../6-menu/index.html">Voltar</a> </button>
+            <button class="alterar-tema" id="alterar-tema">
+                <img id="tema-icon" src="../../../assets/img/aula06/lua.png" alt="Tema" />
+            </button>
+            <div class="card_tabuada" id="menu">
+                <h1 class="card_tabuada-titulo">Tabuada Interativa</h1>
+                <div class="card_tabuada-enviar">
+                    <input
+                        class="card_tabuada-input"
+                        type="number"
+                        id="numero"
+                        placeholder="Digite um número"
+                    />
+                    <button
+                        class="card_tabuada-botao"
+                        onclick="exibirTabuada()"
+                    >
+                        Gerar Tabuada
+                    </button>
+                </div>
+                <h2 class="card_tabuada-tituloResultado">Resultado:</h2>
+                <div class="card_tabuada-resultado" id="resultado"></div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+    <script src="../assets/darkTheme.js"></script>
+</body>
+</html>
