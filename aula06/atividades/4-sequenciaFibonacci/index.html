@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="../assets/img/javascriptIcon.png"/>
+    <title>Sequência de Fibonacci - Atividade 4</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <button class="voltar" id="voltar"><a href="../6-menu/index.html">Voltar</a> </button>
+            <button class="alterar-tema" id="alterar-tema">
+                <img id="tema-icon" src="../../../assets/img/aula06/lua.png" alt="Tema" />
+            </button>
+            <div class="card-sequenciaFibornacci" id="menu">
+                <h1 class="card-sequenciaFibornacci-titulo">Sequência de Fibonacci</h1>
+                <div class="card-sequenciaFibornacci-enviar">
+                    <input
+                        class="card-sequenciaFibornacci-input"
+                        type="number"
+                        id="numeroSequenciaFornecida"
+                        placeholder="Digite um número de sequência"
+                    />
+                    <button
+                        class="card-sequenciaFibornacci-botao"
+                        onclick="exibirResultadoSequenciaFibornacci()"
+                    >
+                        Calcular Sequência
+                    </button>
+                </div>
+                <h2 class="card-sequenciaFibornacci-tituloResultado">Resultado:</h2>
+                <div class="card-sequenciaFibornacci-resultado" id="resultado"></div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+    <script src="../assets/darkTheme.js"></script>
+</body>
+</html>
