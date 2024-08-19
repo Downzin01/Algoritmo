@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="../assets/img/javascriptIcon.png"/>
+    <title>Somar Número Entre - Atividade 2</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <button class="voltar" id="voltar"><a href="../6-menu/index.html">Voltar</a> </button>
+            <button class="alterar-tema" id="alterar-tema">
+                <img id="tema-icon" src="../../../assets/img/aula06/lua.png" alt="Tema" />
+            </button>
+            <div class="card-somarNumerosEntre" id="menu">
+                <h1 class="card-somarNumerosEntre-titulo">Somar Número Entre</h1>
+                <div class="card-somarNumerosEntre-enviar">
+                    <div class="card-somarNumerosEntre-inputs">
+                        <input
+                            class="card-somarNumerosEntre-input"
+                            type="number"
+                            id="primeiroNumero"
+                            placeholder="Digite um número"
+                        />
+                        <input
+                            class="card-somarNumerosEntre-input"
+                            type="number"
+                            id="segundoNumero"
+                            placeholder="Digite um número"
+                        />
+                    </div>
+                    <button
+                        class="card-somarNumerosEntre-botao"
+                        onclick="exibirSomarNumerosEntre()"
+                    >
+                        Calcular Soma
+                    </button>
+                </div>
+                <h2 class="card-somarNumerosEntre-tituloResultado">Resultado:</h2>
+                <div class="card-somarNumerosEntre-resultado" id="resultado"></div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+    <script src="../assets/darkTheme.js"></script>
+</body>
+</html>
