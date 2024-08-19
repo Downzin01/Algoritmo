@@ -1,0 +1,59 @@
+.alterar-tema {
+    background: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    position: fixed; 
+    top: 20px; 
+    right: 50px; 
+    z-index: 1000; 
+}
+
+.alterar-tema img {
+    position: absolute; 
+    width: 24px; 
+    height: 24px; 
+    opacity: 1;
+    transition: opacity 0.3s ease; 
+}
+
+.voltar {
+    position: fixed; 
+    top: 20px; 
+    left: 50px; 
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0db4f;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: padding 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; 
+    z-index: 1000; 
+    transition:
+        transform 0.5s;
+    transform-origin: center;
+}
+
+.voltar a {
+    color: #444;
+    text-decoration: none;
+    
+    
+}
+
+.voltar:hover {
+    background-color: #e5c72e; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.dark-theme {
+    background-color: #444;
+    color: var(--cor-texto-claro);
+}
+
+.dark-theme #menu {
+    background-color: #444;
+}
+
