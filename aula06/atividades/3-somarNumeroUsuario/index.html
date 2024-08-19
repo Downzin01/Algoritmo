@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="../assets/img/javascriptIcon.png"/>
+    <title>Somar Número Enviado - Atividade 3</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <button class="voltar" id="voltar"><a href="../6-menu/index.html">Voltar</a> </button>
+            <button class="alterar-tema" id="alterar-tema">
+                <img id="tema-icon" src="../../../assets/img/aula06/lua.png" alt="Tema" />
+            </button>
+            <div class="card-somarNumerosUsuario" id="menu">
+                <h1 class="card-somarNumerosUsuario-titulo">Somar Número Enviado</h1>
+                <div class="card-somarNumerosUsuario-enviar">
+                    <img class="card-somarNumerosUsuario-imagem" src="../assets/img/blue-archive-alice.gif">
+                    <button
+                        class="card-somarNumerosUsuario-botao"
+                        onclick="exibirResultado()"
+                    >
+                        Calcular
+                    </button>
+                </div>
+                <h2 class="card-somarNumerosUsuario-tituloResultado">Resultado:</h2>
+                <div class="card-somarNumerosUsuario-resultado" id="resultado"></div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+    <script src="../assets/darkTheme.js"></script>
+</body>
+</html>
