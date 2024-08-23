@@ -22,120 +22,89 @@
 
 <h1>Navegação</h1>
 <div>
-    <img 
-        src="./assets/img/emoji-reply-continued-2.png" 
-        width="50px" 
-        style="margin: -6px;"
-    />
+    <img src="./assets/img/emoji-reply-continued-2.png" width="50px" />
     <a href="./aula01/README.md">
-        <img 
-            src="https://img.shields.io/static/v1?label=Variaveis e Consoles&message=AULA 1&color=f0db4f&style=for-the-badge" 
-            style="margin: 2px 0 0 0;"
-        />
+        <img src="https://img.shields.io/static/v1?label=Variaveis e Consoles&message=AULA 1&color=f0db4f&style=for-the-badge" style="border: 1px solid black;" />
     </a>
     <br>
-    <img 
-        src="./assets/img/emoji-reply-continued-3.png" 
-        width="50px" 
-        style="margin: -6px -6px -6px -6px;"
-    />
-    <img 
-        src="./assets/img/emoji-reply-continued-2.png" 
-        width="40px" 
-        style="margin: -6px -6px -6px -0px;"
-    />
-    <a href="./aula01/consoles/README.md">
-        <img 
-            src="https://img.shields.io/static/v1?label=Consoles&message=AULA 1.1&color=f0db4f&style=for-the-badge"
-        />
-    </a>
-    <br>
-    <img 
-        src="./assets/img/emoji-reply-continued-3.png" 
-        width="50px" 
-        style="margin: -6px -6px -4px -6px;"
-    />
-    <img 
-        src="./assets/img/emoji-reply-2.png" 
-        width="40px" 
-        style="margin: -6px -6px -6px -6;"
-    />
-    <a href="./aula01/variaveis/README.md">
-        <img 
-            src="https://img.shields.io/static/v1?label=Variaveis&message=AULA 1.2&color=f0db4f&style=for-the-badge" 
-            style="margin-bottom: 2px;"
-        />
-    </a>
-    <br>
-    <img 
-        src="./assets/img/emoji-reply-continued-3.png" 
-        width="50px" 
-        style="margin: -6px -6px -6px -6px;"
-    />
-    <img 
-        src="./assets/img/emoji-reply-continued-2.png" 
-        width="40px" 
-        style="margin: -6px -6px -8px 40px;"
-    />
-    <a href="./aula01/variaveis/zConcatenacao.md">
-        <img 
-            src="https://img.shields.io/static/v1?label=Concatenacao&message=AULA 1.3&color=f0db4f&style=for-the-badge"
-        />
-    </a>
-    <br>
-    <img 
-        src="./assets/img/emoji-reply-continued-3.png" 
-        width="50px" 
-        style="margin: -6px -6px -6px -6px;"
-    />
-    <img 
-        src="./assets/img/emoji-reply-2.png" 
-        width="40px" 
-        style="margin: -6px -6px -6px 40px;"
-    />
-    <a href="./aula01/variaveis/zVarLetConst.md">
-        <img 
-            src="https://img.shields.io/static/v1?label=Var Let Const&message=AULA 1.4&color=f0db4f&style=for-the-badge" 
-            style="margin-bottom: 2px;"
-        />
-    </a>
-    <br>
-    <img 
-        src="./assets/img/emoji-reply-continued-2.png" 
-        width="50px" 
-        style="margin: -6px;"
-    />
-    <a href="./aula02/README.md">
-        <img 
-            src="https://img.shields.io/static/v1?label=Operadores e Expressoes&message=AULA 2&color=f0db4f&style=for-the-badge" 
-            style="margin: 2px 0 0 0;"
-        />
-    </a>
-    <br>
-    <img 
-        src="./assets/img/emoji-reply-continued-2.png" 
-        width="50px" 
-        style="margin: -6px;"
-    />
-    <a href="./aula04/README.md">
-        <img 
-            src="https://img.shields.io/static/v1?label=If...Else&message=AULA 4&color=f0db4f&style=for-the-badge" 
-            style="margin: 2px 0 0 0;"
-        />
-    </a>
-    <br>
-    <img 
-        src="./assets/img/emoji-reply-2.png" 
-        width="50px" 
-        style="margin: -6px;"
-    />
-    <a href="./aula05/README.md">
-        <img 
-            src="https://img.shields.io/static/v1?label=Loop While&message=AULA 5&color=f0db4f&style=for-the-badge" 
-            style="margin: 2px 0 0 0;"
-        />
-    </a>
 </div>
+<div>
+    <img src="./assets/img/emoji-reply-continued-3.png" width="50px" />
+    <img src="./assets/img/emoji-reply-continued-2.png" width="50px" />
+    <a href="./aula01/consoles/README.md">
+        <img src="https://img.shields.io/static/v1?label=Consoles&message=AULA 1.1&color=f0db4f&style=for-the-badge" style="border: 1px solid black;" />
+    </a>
+    <br>
+</div>
+<div>
+    <img src="./assets/img/emoji-reply-continued-3.png" width="50px" />
+    <img src="./assets/img/emoji-reply-2.png" width="50px" />
+    <a href="./aula01/variaveis/README.md">
+        <img src="https://img.shields.io/static/v1?label=Variaveis&message=AULA 1.2&color=f0db4f&style=for-the-badge" style="border: 1px solid black;" />
+    </a>
+    <br>
+</div>
+<div>
+    <img src="./assets/img/emoji-reply-continued-3.png" width="50px" />
+    <img src="./assets/img/emoji-reply-continued-2.png" width="50px" />
+    <a href="./aula01/variaveis/zConcatenacao.md">
+        <img src="https://img.shields.io/static/v1?label=Concatenacao&message=AULA 1.3&color=f0db4f&style=for-the-badge" style="border: 1px solid black;" />
+    </a>
+    <br>
+</div>
+<div>
+    <img src="./assets/img/emoji-reply-continued-3.png" width="50px" />
+    <img src="./assets/img/emoji-reply-2.png" width="50px" />
+    <a href="./aula01/variaveis/zVarLetConst.md">
+        <img src="https://img.shields.io/static/v1?label=Var Let Const&message=AULA 1.4&color=f0db4f&style=for-the-badge" style="border: 1px solid black;" />
+    </a>
+    <br>
+</div>
+<div>
+    <img src="./assets/img/emoji-reply-continued-2.png" width="50px" />
+    <a href="./aula02/README.md">
+        <img src="https://img.shields.io/static/v1?label=Operadores e Expressoes&message=AULA 2&color=f0db4f&style=for-the-badge" style="border: 1px solid black;" />
+    </a>
+    <br>
+</div>
+<div>
+    <img src="./assets/img/emoji-reply-continued-2.png" width="50px" />
+    <a href="./aula04/README.md">
+        <img src="https://img.shields.io/static/v1?label=If...Else&message=AULA 4&color=f0db4f&style=for-the-badge" style="border: 1px solid black;" />
+    </a>
+    <br>
+</div>
+<div>
+    <img src="./assets/img/emoji-reply-continued-2.png" width="50px" />
+    <a href="./aula05/README.md">
+        <img src="https://img.shields.io/static/v1?label=Loops&message=AULA 5&color=f0db4f&style=for-the-badge" style="border: 1px solid black;" />
+    </a>
+    <br>
+</div>
+<div>
+    <img src="./assets/img/emoji-reply-continued-3.png" width="50px" />
+    <img src="./assets/img/emoji-reply-continued-2.png" width="50px" />
+    <a href="./aula05/for/README.md">
+        <img src="https://img.shields.io/static/v1?label=Loop For&message=AULA 5.1&color=f0db4f&style=for-the-badge" style="border: 1px solid black;" />
+    </a>
+    <br>
+</div>
+<div>
+    <img src="./assets/img/emoji-reply-continued-3.png" width="50px" />
+    <img src="./assets/img/emoji-reply-2.png" width="50px" />
+    <a href="./aula05/while/README.md">
+        <img src="https://img.shields.io/static/v1?label=Loop While&message=AULA 5.2&color=f0db4f&style=for-the-badge" style="border: 1px solid black;" />
+    </a>
+    <br>
+</div>
+<div>
+    <img src="./assets/img/emoji-reply-2.png" width="50px" />
+    <a href="./aula06/README.md">
+        <img src="https://img.shields.io/static/v1?label=Functions&message=AULA 6&color=f0db4f&style=for-the-badge" style="border: 1px solid black;" />
+    </a>
+    <br>
+</div>
+
 
 <h1 align="center">💻 Software</h1>
 
