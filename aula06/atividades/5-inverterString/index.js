@@ -4,7 +4,7 @@ function inverterString(string) {
     let i = stringFornecida.length;
     let stringInvertida = '';
 
-    while(i > 0) {
+    while (i > 0) {
         i--;
 
         stringInvertida += stringFornecida[i];
@@ -15,14 +15,13 @@ function inverterString(string) {
     return stringInvertida;
 }
 
-
 function exibirResultado(resultadoDiv, stringFornecida, stringInvertida) {
     resultadoDiv.innerHTML = `String Fornecida: <strong>${stringFornecida}</strong>\nResultado Invertido: <strong>${stringInvertida}</strong>`;
 }
 
 function exibirResultadoInverterString() {
     const stringFornecida = document.getElementById('stringFornecida').value;
-    const stringInvertida = inverterString(stringFornecida); 
+    const stringInvertida = inverterString(stringFornecida);
 
     const resultadoDiv = document.getElementById('resultado');
     exibirResultado(resultadoDiv, stringFornecida, stringInvertida); // Exibe os resultados no HTML
